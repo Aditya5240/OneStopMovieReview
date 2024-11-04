@@ -58,3 +58,19 @@ button[type="submit"], .btn-secondary {
         flex-direction: column;
     }
 }
+
+
+.moviePoster, .moviePoster2, .moviePoster3, .moviePoster4 {
+    object-fit: cover;
+    border-radius: 7px;
+    width: 140px;
+    transition: transform 0.5s ease, box-shadow 0.3s ease;
+    margin: 5px; /* Add a small margin around posters */
+}
+
+.moviePoster:hover, .moviePoster2:hover, .moviePoster3:hover, .moviePoster4:hover {
+    transform: scale(1.1); /* Zoom effect */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    opacity: 0.9;
+}
+
